@@ -1,0 +1,229 @@
+{
+  "settings": {
+    "alphaVantageToken": "HQxxxxxxxxxxxxP3"
+  },
+  "data": {
+    "institutions": [
+      {
+        "id": "3BEVPL",
+        "type": "BANK",
+        "name": "Tinkoff"
+      },
+      {
+        "id": "412SG9",
+        "type": "BANK",
+        "name": "SEB"
+      },
+      {
+        "id": "7SW652",
+        "type": "BANK",
+        "name": "LHV"
+      },
+      {
+        "id": "FJJGAD",
+        "type": "BROKER",
+        "name": "Interactive Brokers"
+      },
+      {
+        "id": "BBQFBW",
+        "type": "PHYSICAL_LOCATION",
+        "name": "Tallinn, Estonia"
+      },
+      {
+        "id": "LBZCM9",
+        "type": "PERSON",
+        "name": "broo"
+      }
+    ],
+    "assets": [
+      {
+        "id": "XEVJRR",
+        "class": "CURRENCY",
+        "subclass": "",
+        "name": "EUR",
+        "currency": "USD"
+      },
+      {
+        "id": "RCBKDN",
+        "class": "SECURITY",
+        "subclass": "_",
+        "name": "AAPL",
+        "currency": "USD"
+      },
+      {
+        "id": "Z7GEEU",
+        "class": "CURRENCY",
+        "subclass": "_",
+        "name": "RUB",
+        "currency": "USD"
+      },
+      {
+        "id": "X89MTR",
+        "class": "SECURITY",
+        "subclass": "ETF",
+        "name": "IWDA.L",
+        "currency": "USD"
+      },
+      {
+        "id": "33ERLM",
+        "class": "SECURITY",
+        "subclass": "ETF",
+        "name": "EIMI.L",
+        "currency": "USD"
+      },
+      {
+        "id": "LPVCT1",
+        "class": "CURRENCY",
+        "subclass": "_",
+        "name": "USD",
+        "currency": "USD"
+      }
+    ],
+    "assetAccounts": [
+      {
+        "id": "U8Z3PD",
+        "institutionId": "7SW652",
+        "assetId": "XEVJRR",
+        "name": "LHV EUR"
+      },
+      {
+        "id": "K47QLV",
+        "institutionId": "412SG9",
+        "assetId": "XEVJRR",
+        "name": "seb eur account"
+      },
+      {
+        "id": "LRB7ZD",
+        "institutionId": "3BEVPL",
+        "assetId": "Z7GEEU",
+        "name": "tinkoff rub credit"
+      },
+      {
+        "id": "JSVE4T",
+        "institutionId": "FJJGAD",
+        "assetId": "X89MTR",
+        "name": "IWDA.L IB"
+      },
+      {
+        "id": "U6H9BM",
+        "institutionId": "FJJGAD",
+        "assetId": "33ERLM",
+        "name": "EIMI.L IB"
+      }
+    ],
+    "assetAccountStates": [
+      {
+        "balance": "100",
+        "assetAccountId": "U8Z3PD",
+        "reportId": "8CVPG1"
+      },
+      {
+        "balance": "150",
+        "assetAccountId": "K47QLV",
+        "reportId": "8CVPG1"
+      },
+      {
+        "balance": "200",
+        "assetAccountId": "LRB7ZD",
+        "reportId": "8CVPG1"
+      },
+      {
+        "balance": "350",
+        "assetAccountId": "U8Z3PD",
+        "reportId": "CJ4ZWM"
+      },
+      {
+        "balance": "400",
+        "assetAccountId": "K47QLV",
+        "reportId": "CJ4ZWM"
+      },
+      {
+        "balance": "450",
+        "assetAccountId": "LRB7ZD",
+        "reportId": "CJ4ZWM"
+      },
+      {
+        "balance": "5",
+        "assetAccountId": "JSVE4T",
+        "reportId": "CJ4ZWM"
+      },
+      {
+        "balance": "10",
+        "assetAccountId": "U6H9BM",
+        "reportId": "CJ4ZWM"
+      },
+      {
+        "balance": "400",
+        "assetAccountId": "U8Z3PD",
+        "reportId": "3U6X2M"
+      },
+      {
+        "balance": "450",
+        "assetAccountId": "K47QLV",
+        "reportId": "3U6X2M"
+      },
+      {
+        "balance": "500",
+        "assetAccountId": "LRB7ZD",
+        "reportId": "3U6X2M"
+      },
+      {
+        "balance": "10",
+        "assetAccountId": "JSVE4T",
+        "reportId": "3U6X2M"
+      },
+      {
+        "balance": "15",
+        "assetAccountId": "U6H9BM",
+        "reportId": "3U6X2M"
+      }
+    ],
+    "reports": [
+      {
+        "id": "8CVPG1",
+        "datetime": 1589143251941
+      },
+      {
+        "id": "CJ4ZWM",
+        "datetime": 1589232479223
+      },
+      {
+        "id": "3U6X2M",
+        "datetime": 1589662800000
+      }
+    ],
+    "exchangeRates": [
+      {
+        "id": "XX1",
+        "reportId": "8CVPG1",
+        "data": {
+          "XEVJRR": "1.08",
+          "RCBKDN": "220",
+          "Z7GEEU": "0.01348500"
+        }
+      },
+      {
+        "id": "XX2",
+        "reportId": "CJ4ZWM",
+        "data": {
+          "XEVJRR": "1.12",
+          "RCBKDN": "240",
+          "Z7GEEU": "0.01348500",
+          "X89MTR": "55.2",
+          "33ERLM": "24.6"
+        }
+      },
+      {
+        "id": "KNYXUE",
+        "reportId": "3U6X2M",
+        "data": {
+          "XEVJRR": "1.12",
+          "RCBKDN": "250",
+          "Z7GEEU": "0.014",
+          "X89MTR": "56",
+          "33ERLM": "26"
+        }
+      }
+    ]
+  }
+}
